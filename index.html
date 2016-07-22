@@ -11,14 +11,17 @@
   <header>
   </header>
   <main>
+     <a id="random" href="#" target="_blank">
+      <button onclick="getRandomEntry()">Random</button>
+    </a>
+
     <h1>Wikipedia</h1>
     <div id="searchBox">
       <input id="search"/>
-      <i class="fa fa-search" aria-hidden="true" onclick="searchEntry()"></i>
+      <i class="fa fa-search fa-2x" aria-hidden="true" onclick="getEntry()"></i>
     </div>
-    <a id="random" href="#" target="_blank">
-      <button onclick="getRandomEntry()">Random</button>
-    </a>
+    <div id="searchResult">
+    </div>
   </main>
   <footer>
   </footer>

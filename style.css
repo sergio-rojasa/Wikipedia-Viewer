@@ -1,6 +1,52 @@
+@font-face{
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+* {
+  font-family: "San Francisco";
+}
+
 h1 {
   text-align: center;
 }
-#searchBox {
+#random button{
+  width: 98px;
+  height: 34px;
+  border: none;
+  font-size: 1.2em;
+  color: gray;
+  background-color: #f9f9f9;
+}
+#searchBox{
   text-align: center;
+}
+#search {
+  margin-left: 20%;
+  width: 250px;
+}
+#random {
+  display: block;
+  text-align: center;
+  margin-top: 10%;
+}
+div {
+  width: 75%;
+  height: 30%;
+
+}
+div a{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 2%;
+  background-color: #f9f9f9;
+  font-size: 1em;
+  color: #676767;
+}
+div a h2 {
+  color: #009fff;
+}
+a {
+  text-decoration: none;
+  display: block;
 }

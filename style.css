@@ -14,9 +14,10 @@ h1 {
   width: 98px;
   height: 34px;
   border: none;
-  font-size: 1.2em;
-  color: gray;
-  background-color: #f9f9f9;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  background-color: #00dcbe;
 }
 #searchBox{
   text-align: center;
@@ -29,6 +30,9 @@ h1 {
   display: block;
   text-align: center;
   margin-top: 10%;
+}
+.fa-search {
+  margin-left: 2%;
 }
 div {
   width: 75%;

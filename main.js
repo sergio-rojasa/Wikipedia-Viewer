@@ -1,3 +1,8 @@
+document.getElementById("search").addEventListener('keypress', function(event){
+  if(event.keyCode === 13) {
+    getEntry();
+  }
+});
 var createScript = function(url) {
     var script = document.createElement('script');
     script.src = url

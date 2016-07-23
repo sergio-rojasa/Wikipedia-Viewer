@@ -9,3 +9,6 @@ HTML| CSS | JS
 
 <br>
 ### Application Overview
+<img src="http://i.imgur.com/OVKSySW.jpg"/> |
+--- |
+Search Results
